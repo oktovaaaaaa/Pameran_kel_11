@@ -209,6 +209,7 @@
     </div>
 
     @endif
+@auth
 
     <!-- Order Confirmation Modal -->
     <div class="modal fade" id="confirmOrderModal" tabindex="-1" aria-labelledby="confirmOrderModalLabel"
@@ -267,6 +268,7 @@
     </div>
 
     @include('layouts.footer')
+@endauth
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
